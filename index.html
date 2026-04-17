@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - CS Graduate Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navigation -->
+    <header class="fixed w-full top-0 z-100 bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg">
+        <nav class="max-w-6xl mx-auto flex justify-between items-center px-8 py-6">
+            <div class="text-2xl font-bold">John Doe</div>
+            <ul class="flex gap-8">
+                <li><a href="#about" class="hover:opacity-80 transition">About</a></li>
+                <li><a href="#skills" class="hover:opacity-80 transition">Skills</a></li>
+                <li><a href="#projects" class="hover:opacity-80 transition">Projects</a></li>
+                <li><a href="#education" class="hover:opacity-80 transition">Education</a></li>
+                <li><a href="#contact" class="hover:opacity-80 transition">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center py-24 px-8">
+            <h1 class="text-5xl font-bold mb-4">John Doe</h1>
+            <p class="text-2xl mb-8 opacity-90">Computer Science Graduate | Software Developer</p>
+            <a href="#contact" class="inline-block bg-white text-indigo-500 px-8 py-3 rounded font-bold hover:shadow-lg hover:-translate-y-1 transition">Get In Touch</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-white py-16 px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-indigo-500 border-b-4 border-indigo-500 pb-3 w-fit">About Me</h2>
+            <p class="text-lg leading-relaxed text-gray-600 mb-6">
+                I'm a passionate Computer Science graduate with a strong foundation in software development, 
+                algorithms, and data structures. During my academic journey, I've worked on various projects 
+                involving web development, mobile applications, and backend systems. I'm eager to contribute 
+                my technical skills and learn from experienced professionals in a dynamic team environment.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-600">
+                I'm particularly interested in full-stack development and cloud technologies. I'm committed 
+                to continuous learning and staying updated with the latest industry trends and best practices.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16 px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-indigo-500 border-b-4 border-indigo-500 pb-3 w-fit">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-indigo-500 mb-4">Programming Languages</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Python</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Java</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> JavaScript</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> C++</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-indigo-500 mb-4">Web Development</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> HTML/CSS</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> React</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Node.js</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Express</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-indigo-500 mb-4">Databases</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> MySQL</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> MongoDB</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Firebase</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-indigo-500 mb-4">Tools & Technologies</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Git/GitHub</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> Docker</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> VS Code</li>
+                        <li class="text-gray-700"><span class="text-indigo-500 font-bold">✓</span> AWS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-indigo-500 border-b-4 border-indigo-500 pb-3 w-fit">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 transition">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-6">
+                        <h3 class="text-xl font-bold mb-2">Task Management Application</h3>
+                        <p class="text-sm opacity-90">A full-stack web application</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">
+                            Built a responsive task management app with user authentication, 
+                            real-time updates, and data persistence using local storage.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">React</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">Node.js</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <div class="space-y-2">
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">View Project</a><br>
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 transition">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Platform</h3>
+                        <p class="text-sm opacity-90">Complete shopping experience</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">
+                            Developed a scalable e-commerce platform with product catalog, 
+                            shopping cart, payment integration, and order management system.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">Express</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">MySQL</span>
+                        </div>
+                        <div class="space-y-2">
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">View Project</a><br>
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 transition">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-6">
+                        <h3 class="text-xl font-bold mb-2">Weather Forecast App</h3>
+                        <p class="text-sm opacity-90">Real-time weather updates</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">
+                            Created a weather application that fetches real-time data from 
+                            public APIs, displays forecasts, and allows location-based searches.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">React</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">API Integration</span>
+                            <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm">CSS</span>
+                        </div>
+                        <div class="space-y-2">
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">View Project</a><br>
+                            <a href="#" target="_blank" class="text-indigo-500 font-bold hover:underline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="bg-white py-16 px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-indigo-500 border-b-4 border-indigo-500 pb-3 w-fit">Education</h2>
+            
+            <div class="bg-white p-6 mb-6 border-l-4 border-indigo-500 rounded">
+                <h3 class="text-2xl font-bold text-indigo-500 mb-2">Bachelor of Science in Computer Science</h3>
+                <div class="text-gray-600 text-sm mb-3">University Name | Graduated: 2024</div>
+                <p class="text-gray-700">
+                    Relevant Coursework: Data Structures, Algorithms, Database Management Systems, 
+                    Software Engineering, Web Development, Artificial Intelligence, Operating Systems
+                </p>
+            </div>
+
+            <div class="bg-white p-6 mb-8 border-l-4 border-indigo-500 rounded">
+                <h3 class="text-2xl font-bold text-indigo-500 mb-2">Certifications</h3>
+                <div class="text-gray-600 text-sm mb-3">Professional Development</div>
+                <ul class="text-gray-700 space-y-1">
+                    <li>• AWS Certified Cloud Practitioner</li>
+                    <li>• Google Certified Associate Cloud Engineer</li>
+                </ul>
+            </div>
+
+            <h2 class="text-4xl font-bold mb-8 text-indigo-500 border-b-4 border-indigo-500 pb-3 w-fit">Experience</h2>
+
+            <div class="bg-white p-6 mb-6 border-l-4 border-indigo-500 rounded">
+                <h3 class="text-2xl font-bold text-indigo-500 mb-2">Software Engineering Intern</h3>
+                <div class="text-gray-600 text-sm mb-3">Tech Company Inc. | May 2023 - August 2023 (3 months)</div>
+                <p class="text-gray-700 space-y-2">
+                    • Developed and debugged backend services using Node.js and Express<br>
+                    • Collaborated with senior developers on REST API design and implementation<br>
+                    • Participated in code reviews and improved code quality<br>
+                    • Contributed to fixing bugs and optimizing database queries
+                </p>
+            </div>
+
+            <div class="bg-white p-6 border-l-4 border-indigo-500 rounded">
+                <h3 class="text-2xl font-bold text-indigo-500 mb-2">Web Development Intern</h3>
+                <div class="text-gray-600 text-sm mb-3">Digital Solutions Ltd. | January 2023 - April 2023 (3 months)</div>
+                <p class="text-gray-700 space-y-2">
+                    • Built responsive web pages using HTML, CSS, and JavaScript<br>
+                    • Worked with React framework to create interactive user interfaces<br>
+                    • Assisted in testing and debugging web applications<br>
+                    • Collaborated with UX/UI designers to implement design specifications
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center py-16 px-8">
+            <h2 class="text-4xl font-bold mb-4 border-b-4 border-white pb-3 w-fit mx-auto">Get In Touch</h2>
+            <p class="text-lg mb-8">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="flex justify-center gap-8 flex-wrap">
+                <a href="mailto:john@example.com" class="hover:opacity-80 transition">📧 Email</a>
+                <a href="https://linkedin.com" target="_blank" class="hover:opacity-80 transition">💼 LinkedIn</a>
+                <a href="https://github.com" target="_blank" class="hover:opacity-80 transition">🐙 GitHub</a>
+                <a href="https://twitter.com" target="_blank" class="hover:opacity-80 transition">𝕏 Twitter</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-8">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
